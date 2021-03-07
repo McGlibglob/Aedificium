@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<services>
+	
+		<IStoreBook impl="com.aedificium.model.service.book.StoreBookImpl">
+		</IStoreBook>
+		
+		<IGetBook impl="com.aedificium.model.service.book.GetBookImpl">
+		</IGetBook>
+		
+		<IDeleteBook impl="com.aedificium.model.service.book.DeleteBookImpl">
+		</IDeleteBook>
+		
+		<IStoreBorrower impl="com.aedificium.model.service.borrower.StoreBorrowerImpl">
+		</IStoreBorrower>
+		
+		<IGetBorrower impl="com.aedificium.model.service.borrower.GetBorrowerImpl">
+		</IGetBorrower>
+
+		<IStoreLibrarian impl="com.aedificium.model.service.librarian.StoreLibImpl">
+		</IStoreLibrarian>
+			
+		<IGetLibrarian impl="com.aedificium.model.service.librarian.GetLibrarianImpl">
+		</IGetLibrarian>
+
+		<IVerifyLibrarian impl="com.aedificium.model.service.librarian.VerifyLibrarianImpl">
+		</IVerifyLibrarian>
+
+		<IStoreCheckout impl="com.aedificium.model.service.checkout.StoreCheckoutImpl">
+		</IStoreCheckout>
+
+		<IGetCheckout impl="com.aedificium.model.service.checkout.GetCheckoutImpl">
+		</IGetCheckout>
+
+		<ICheckIn impl="com.aedificium.model.service.checkout.CheckInImpl">
+		</ICheckIn>
+
+		<IStoreSPC impl="com.aedificium.model.service.spc.StoreSPCImpl">
+		</IStoreSPC>
+
+		<IGetSPC impl="com.aedificium.model.service.spc.GetSPCImpl">
+		</IGetSPC>
+
+		<ILoginDB impl="com.aedificium.model.service.database.LoginDBImpl">
+		</ILoginDB>
+
+		<IBaseHibernate impl="com.aedificium.model.service.hibernate.BaseHibernateImpl">
+		</IBaseHibernate>
+
+</services>
+
